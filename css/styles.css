@@ -273,10 +273,7 @@ body {
 }
 
 .portfolio-list-item {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 360px;
-  width: calc((100% - 48px) / 3);
+  max-width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-info {
