@@ -181,6 +181,7 @@ body {
 
 .order-service-button {
   display: block;
+  min-width: 169px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 4px;
@@ -238,13 +239,14 @@ body {
 
 .team-list-item {
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 
   background-color: #fff;
 }
 
 .team-card-info {
-  border-radius: 0 0 4px 4px;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-item-title {
@@ -300,13 +302,13 @@ body {
 /* ================ /Our Portfolio STYLES ================ */
 
 /* ================ Footer STYLES ================ */
-.footer-container {
+.page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
